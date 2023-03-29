@@ -10,5 +10,4 @@ const job = queue.create('push_notification_code', {
 });
 
 job.on('complete', () => console.log('Notification job completed'));
-job.on('failed', () => console.log('Notification job failed'));:wq
-
+job.on('failed', () => console.log('Notification job failed'));
